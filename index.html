@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+    <div>
+        <section>
+            <h1>practica de formulario</h1>
+            <form name="forms_productos" >
+                <label>Nombre del producto</label>
+                   <input name="nombre_producto" type="text" size="30" placeholder="" >
+                   <br><br>
+                <label >descripcion del producto</label>
+                <textarea name="descripcion_producto"  cols="30"
+                    rows="10" placeholder="est espacio esta destinadopara registrar una descripcion">
+                </textarea><br>
+                <br>
+                <label>Elige la presentacion del producto </label>
+                <select name="presentacion_producto"  multiple="">
+                    <option value="1">caja</option>
+                    <option value="2">litro</option>
+                    <option value="3">pieza</option>
+                    <option value="4">kilogramo</option>
+                    <option value="5" selected>bolsa</option>
+                </select>
+                <br><br>
+                <input type="date" name="fecha" ><br>
+                <br>
+                <label >escribe el correo</label>
+                <input type="email" name="email" > <br>
+                <br>
+                <label >escribe tu busqueda</label>
+                <input 
+                    type="search" name="search" >
+                <br>
+                <br>
+                <button type="submit">enviar</button>
+                <button type="reset" autofocus>reiniciar</button>
+                <img src="validacion.jpg" alt="validacion" width="1350" height="800">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
